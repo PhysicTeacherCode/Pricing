@@ -32,4 +32,4 @@ df.to_sql(
     index=False
 )
 
-display(df.head(20))
+display(df.head())

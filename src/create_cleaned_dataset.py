@@ -24,4 +24,4 @@ df.to_excel(
     index=False
 )
 
-display(df.head(20))
+display(df.head())
