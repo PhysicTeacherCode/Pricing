@@ -29,22 +29,4 @@ A análise está dividida em seis etapas principais:
 *   **Machine Learning:** Scikit-learn
 *   **Ambiente:** Jupyter Notebook
 
-## ⚙️ Como Utilizar:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/PhysicTeacherCode/Pricing-Customer-and-Recommendation.git
-    ```
-2.  **Instale as dependências:**
-    *(Certifique-se de ter o Python instalado)*
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn notebook
-    ```
-3.  **Execute os notebooks:**
-    Navegue até a pasta `notebooks` e inicie o Jupyter:
-    ```bash
-    jupyter notebook
-    ```
-
----
 **Autor:** [PhysicTeacherCode](https://github.com/PhysicTeacherCode)
