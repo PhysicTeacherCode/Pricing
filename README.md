@@ -1,5 +1,12 @@
 # Pricing, Customer Behavior and Recommendation Strategies
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+
 Este repositório é um compilado de estratégias fundamentadas em **dados, estatística, economia e machine learning**, com o objetivo principal de resolver problemas complexos na área de **Pricing** (precificação).
 
 O projeto aborda desde a limpeza e preparação dos dados até a implementação de modelos de sensibilidade de preço, análise de sazonalidade, classificação de clientes e sistemas de recomendação.
