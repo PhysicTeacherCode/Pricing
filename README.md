@@ -15,7 +15,39 @@ O projeto aborda desde a limpeza e preparação dos dados até a implementação
 ## 💾 Dataset:
 
 * `Fonte`: [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/dataset/352/online+retail)
-* `Descrição`: Registro de vendas de um site de varejo contendo mais 50 mil registros de compras de mais 4000 clientes em 37 países.
+* `Descrição`: Registro de vendas de um site de varejo contendo mais 500 mil registros de compras de mais 4000 clientes em 37 países.
+
+## 📊 Resultados Principais:
+
+### 🛒 Distribuição de produtos de acordo com preço médio e a demanda:
+Foi observado uma relação inversa entre preço e demanda:
+* Menores preços -> Maior Demanda;
+* Maiores preços -> Menor Demanda;
+  
+![Preço e Quantidade](reports/price_quantity.png)
+
+### 📅 Distribuição de receita por dia de cada mês com maiores vendas:
+De acordo a distribuição de vendas anuais, os meses com maiores receitas foram:
+
+`Setembro, Outubro, Novembro e Dezembro`
+
+![Melhores Meses Receita](reports/highest_months_revenue.png)
+
+### 📅 Heatmap que indica quais dias da semana de cada mês receberam mais receita:
+
+Além dos meses com maior receita, também podem ser considerados os dias da semana com maior receita:
+
+`Segunda à Sexta`
+
+![Heatmap Semanal](reports/heatmap_semanal.png)
+
+### 👨‍👩‍👧‍👦 Distribuição RFM por cluster de clientes:
+
+Utilizando Kmeans, foi observado 4 clusters de clientes (0, 1, 2 e 3), sendo os clusters ***1 e 3*** os mais relevantes, pois:
+
+`O grupo de clientes ideal seria aquele que faz compras regularmente (recência baixa), é um cliente 'fiel' (frequência alta) e já trouxe bastante receita (receita alta).`
+
+![Cluster de Cliente](reports/kmeans_clusters.png)
 
 ## 📁 Estrutura do Repositório:
 
@@ -35,19 +67,6 @@ A análise está dividida em seis etapas principais:
 5.  **Classificação de Clientes (`5_customer_classification.ipynb`)**: Clusterização de clientes para estratégias de vendas personalizadas.
 6.  **Recomendação de Produtos (`6_product_recommendation.ipynb`)**: Recomendação de produtos com base no comportamento de compra.
 
-## 📊 Resultados:
-
-### Distribuição de produtos de acordo com preço médio e a demanda:
-![Preço e Quantidade](reports/price_quantity.png)
-
-### Distribuição de receita por dia de cada mês com maiores vendas:
-![Melhores Meses Receita](reports/highest_months_revenue.png)
-
-### Heatmap que indica quais dias da semana de cada mês receberam mais receita:
-![Heatmap Semanal](reports/heatmap_semanal.png)
-
-### Distribuição RFM por cluster de clientes:
-![Cluster de Cliente](reports/kmeans_clusters.png)
 
 ## 🛠️ Tecnologias Utilizadas:
 
