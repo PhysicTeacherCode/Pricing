@@ -7,6 +7,7 @@
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000?style=for-the-badge&logo=markdown)
+![PowerBI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=Power%20BI&logoColor=white)
 
 Este repositório é um compilado de estratégias fundamentadas em **dados, estatística, economia e machine learning**, com o objetivo principal de resolver problemas complexos na área de **Pricing** (precificação).
 
@@ -77,7 +78,7 @@ A análise está dividida em seis etapas principais:
 
 *   **Linguagem:** Python
 *   **Bibliotecas de Dados:** Pandas, NumPy
-*   **Visualização:** Matplotlib, Seaborn
+*   **Visualização:** Matplotlib, Seaborn, Power BI
 *   **Machine Learning:** Scikit-learn
 *   **Ambiente:** Jupyter Notebook
 
